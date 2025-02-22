@@ -1,0 +1,11 @@
+[project]
+name = "kigaroo-mood-mailer"
+version = "0.1.0"
+description = "This Python script retrieves mood information (Stimmungsbarometer) from KigaRoo and sends an email report."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4>=4.13.3",
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.3",
+]
